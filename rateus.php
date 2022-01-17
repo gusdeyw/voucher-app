@@ -8,8 +8,8 @@ include "layout/header.php";
 <body>
 
     <!-- Here to place Content  -->
-    <div class="w-screen h-screen bg-cover bg-center pt-3" style="background-image: url('public/images/background.jpg');">
-        <div class="w-4/5 md:h-3/5 lg:w-2/5 mx-auto p-10 bg-white rounded-xl shadow-lg">
+    <div id="background" class="w-screen bg-cover bg-center pt-3" style="background-image: url('public/images/background.jpg');">
+        <div class="w-4/5 lg:w-2/5 mx-auto p-10 bg-white rounded-xl shadow-lg">
             <div class="grid  gap-8 grid-cols-1">
                 <div class="flex flex-col ">
                     <div class="flex flex-col sm:flex-row items-center">
@@ -93,6 +93,7 @@ include "layout/header.php";
     <!-- Place Single Javascript this page only script here-->
     <script>
         $(document).ready(function() {
+            $("#background").addClass("h-screen");
             $("#1").hide();
             $("#2").hide();
 
@@ -107,23 +108,26 @@ include "layout/header.php";
                 } else if (rate == "op3") {
                     $("#1").hide();
                     $("#2").show();
+                    $("#background").removeClass("h-screen");
                 } else if (rate == "op4") {
                     $("#1").hide();
                     $("#2").show();
+                    $("#background").removeClass("h-screen");
                 } else if (rate == "op5") {
                     $("#1").hide();
                     $("#2").show();
+                    $("#background").removeClass("h-screen");
                 }
             });
         });
     </script>
     <?php
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
+    // use PHPMailer\PHPMailer\PHPMailer;
+    // use PHPMailer\PHPMailer\Exception;
     
-    require 'vendor/PHPMailer/src/Exception.php';
-    require 'path/to/PHPMailer/src/PHPMailer.php';
-    require 'path/to/PHPMailer/src/SMTP.php'
+    // require 'vendor/PHPMailer/src/Exception.php';
+    // require 'path/to/PHPMailer/src/PHPMailer.php';
+    // require 'path/to/PHPMailer/src/SMTP.php'
     ?>
     <?php
     include "layout/footer.php";
