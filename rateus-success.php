@@ -8,7 +8,7 @@ include "layout/header.php";
 <body>
 
     <!-- Here to place Content  -->
-    <div class="w-screen h-screen bg-cover bg-center pt-3" style="background-image: url('public/images/background.jpg');">
+    <div class="w-screen h-screen bg-cover bg-center pt-10" style="background-image: url('public/images/background.jpg');">
         <div class="w-4/5 md:h-3/5 lg:w-2/5 mx-auto p-10 bg-white rounded-xl shadow-lg">
         <svg viewBox="0 0 24 24" class="text-green-600 w-16 h-16 mx-auto my-6">
             <path fill="currentColor"
