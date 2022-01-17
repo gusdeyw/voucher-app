@@ -1,0 +1,27 @@
+{
+  "name": "bvrproperty",
+  "version": "1.0.0",
+  "description": "BVR Property Front end &amp; Back End Site",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusdeyw/bvrproperty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusdeyw/bvrproperty/issues"
+  },
+  "homepage": "https://github.com/gusdeyw/bvrproperty#readme",
+  "dependencies": {
+    "daisyui": "^1.17.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1"
+  }
+}
