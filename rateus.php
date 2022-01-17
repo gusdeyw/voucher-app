@@ -8,7 +8,7 @@ include "layout/header.php";
 <body>
 
     <!-- Here to place Content  -->
-    <div id="background" class="w-screen bg-cover bg-center pt-3" style="background-image: url('public/images/background.jpg');">
+    <div id="background" class="w-screen bg-cover bg-center py-10" style="background-image: url('public/images/background.jpg');">
         <div class="w-4/5 lg:w-2/5 mx-auto p-10 bg-white rounded-xl shadow-lg">
             <div class="grid  gap-8 grid-cols-1">
                 <div class="flex flex-col ">
