@@ -13,7 +13,7 @@ include "layout/header.php";
             <div class="grid  gap-8 grid-cols-1">
                 <div class="flex flex-col ">
                     <div class="flex flex-col sm:flex-row items-center">
-                        <h2 class="font-semibold text-lg mr-auto">Give us a quick review</h2>
+                        <h2 class="font-semibold text-black text-lg mr-auto">Give us a quick review</h2>
                         <div class="w-full sm:w-auto sm:ml-auto mt-3 sm:mt-0"></div>
                     </div>
                     <div class="mt-5">
