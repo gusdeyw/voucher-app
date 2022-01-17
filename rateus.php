@@ -117,7 +117,14 @@ include "layout/header.php";
             });
         });
     </script>
-
+    <?php
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+    
+    require 'vendor/PHPMailer/src/Exception.php';
+    require 'path/to/PHPMailer/src/PHPMailer.php';
+    require 'path/to/PHPMailer/src/SMTP.php'
+    ?>
     <?php
     include "layout/footer.php";
     ?>
