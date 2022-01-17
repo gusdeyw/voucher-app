@@ -22,12 +22,12 @@ include "layout/header.php";
                                 <input type="hidden" name="apikey" value="5b0805fc-0d1a-4631-9aa6-15b8ad93592c">
                                 <input type="hidden" name="redirect" value="https://web3forms.com/success">
                                 <div class="md:space-y-2 mb-3">
-                                    <img src="public/images/logo-vertical.png" class="w-2/4" alt="">
+                                    <img src="public/images/logo-vertical.png" class="w-11/12" alt="">
                                 </div>
                                 <div class="mb-3 space-y-2 w-full text-xs">
                                     <label class=" font-semibold text-gray-600 py-2">How do you think about our services<abbr title="required">*</label>
                                     <div class="flex flex-wrap items-stretch w-full mb-4 relative">
-                                        <select id="select" type="text" name="quality" class="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light rounded-lg px-3 relative focus:border-blue focus:shadow">
+                                        <select id="select" type="text" name="quality" class="text-black flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light rounded-lg px-3 relative focus:border-blue focus:shadow">
                                             <option>Our service quality</option>
                                             <option value="op1">Very Good</option>
                                             <option value="op2">Good</option>
